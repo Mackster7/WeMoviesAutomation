@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e2d4b6e-eba1-4e6d-b018-dc7cfe6229f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runner/RunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/LandingPage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helper/CommonHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LandingPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdef/LandingPageStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/LandingPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/LandingPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/CommonHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/CommonHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LandingPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LandingPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/LandingPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/LandingPageStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
