@@ -32,6 +32,8 @@ public class LandingPageStepDef {
         cap.setCapability("appPackage", "com.example.wework");
         cap.setCapability("appActivity", "com.example.wework.MainActivity");
         cap.setCapability("autoGrantPermissions", true);
+        cap.setCapability("unicodeKeyboard", true);
+        cap.setCapability("resetKeyboard", true);
         URL url = new URL("http://127.0.0.1:4723/");
         driver = new AppiumDriver(url, cap);
 
@@ -68,16 +70,26 @@ public class LandingPageStepDef {
 
     @Then("Verify user is able to see the search option")
     public void verifySearchOption() {
-        LandingPageTests.tapOnSearchMoviesSearchBox();
+        LandingPageTests.verifySearchOptionInAppHomeScreen();
     }
 
     @When("User clicks on search option and start search a movie valid name")
     public void verifyValidMovieSearch() {
-        LandingPageTests.movieNameAppearedInSearchResults();
+        LandingPageTests.searchMovieInSearchBox("Parasite");
     }
 
     @Then("Verify movies is appeared in search list")
     public void verifySearchList() {
+        LandingPageTests.movieNameAppearedInSearchResults();
+    }
 
+    @When("User clicks on search option and start search an invalid movie")
+    public void verifyInvalidMovieSearch() {
+        LandingPageTests.searchMovieInSearchBox("Life of Pie");
+    }
+
+    @Then("Verify no result found error screen")
+    public void verifyErrorScreenForInvaidMovieSearch() {
+        LandingPageTests.errorMessageForInvalidMovieNameSearch();
     }
 }
